@@ -28,6 +28,18 @@ YOUR_IPSEC_PSK=''
 YOUR_USERNAME=''
 YOUR_PASSWORD=''
 
+
+VPN_L2TP_NET='' # local net l2tp default 192.168.42.0/24
+VPN_L2TP_LOCAL='' # local net l2tp gateway default 192.168.42.1
+VPN_L2TP_POOL='' # local net l2tp pool default 192.168.42.10-192.168.42.250
+VPN_XAUTH_NET='' # local net xauth-psk default 192.168.43.0/24
+VPN_XAUTH_POOL='' # local net xauth-psk pool default 192.168.42.10-192.168.42.250
+# DNS for vpn net
+VPN_DNS_SRV1=''
+VPN_DNS_SRV2=''
+
+
+
 # Important notes:   https://git.io/vpnnotes
 # Setup VPN clients: https://git.io/vpnclients
 # IKEv2 guide:       https://git.io/ikev2
