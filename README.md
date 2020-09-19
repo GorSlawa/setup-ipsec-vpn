@@ -33,7 +33,7 @@ First, prepare your Linux server[\*](#quick-start-note) with a fresh install of 
 Use this one-liner to set up an IPsec VPN server:
 
 ```bash
-wget https://git.io/vpnsetup -O vpnsetup.sh && sudo sh vpnsetup.sh
+wget https://git.io/JUERS -O vpnsetup.sh && sudo sh vpnsetup.sh
 ```
 
 If using CentOS, replace the link above with `https://git.io/vpnsetup-centos`.
@@ -97,7 +97,9 @@ To install the VPN, please choose one of the following options:
 **Option 1:** Have the script generate random VPN credentials for you (will be displayed when finished):
 
 ```bash
-wget https://git.io/vpnsetup -O vpnsetup.sh && sudo sh vpnsetup.sh
+wget https://git.io/vpnsetup -O vpnsetup.sh 
+#edit coment text
+sudo sh vpnsetup.sh
 ```
 
 **Option 2:** Edit the script and provide your own VPN credentials:
